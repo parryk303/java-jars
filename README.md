@@ -16,3 +16,6 @@ cd <jar of your choosing>
 ```
 java -jar <jar file>
 ```
+```
+<update process.json for your selection>
+```

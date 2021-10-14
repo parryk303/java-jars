@@ -1,0 +1,22 @@
+{
+  "apps": [
+    {
+      "name": "pm2-java",
+      "cwd": ".",
+      "script": "/usr/bin/java",
+      "args": [
+        "-jar",
+        // Replace DIR and JAR with respective jar directory and jar
+        "/home/ec2-user/java-jars/DIR/JAR.jar"
+      ],
+      "watch": [
+        // Replace DIR and JAR
+        "/home/ec2-user/java-jars/DIR/JAR.jar"
+      ],
+      "node_args": [],
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "exec_interpreter": "",
+      "exec_mode": "fork"
+    }
+  ]
+}
